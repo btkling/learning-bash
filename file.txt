@@ -1,3 +1,0 @@
-hello foo (from greet())
-hello bar (from greet())
-hello baz (from greet())
