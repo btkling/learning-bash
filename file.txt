@@ -1,0 +1,11 @@
+hello
+a
+b
+c
+DAVE
+
+dave
+
+hello how are you 
+this is a normal text editor
+ok im done
