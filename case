@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+s=$1
+case "$s" in
+    dave) echo "hi dave" ;;
+    buddy) echo "there he is" ;;
+    guy) echo "uh oh here comes trouble" ;;
+    *) echo "yeah baby i know who you are, you're $s" ;;
+esac
