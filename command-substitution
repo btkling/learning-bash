@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+echo backticks
+whoami
+echo `whoami`
+echo `echo \`whoami\``
+echo `echo \` echo \\\`whoami\\\`\``
+
+echo dollar-parens-notation
+whoami
+echo $(whoami)
+echo $(echo $(whoami))
+echo $(echo $(echo $(whoami)))
+
+echo the funk
+i=5
+my_func() {
+    i=6
+    echo hi
+}
+thing=$(my_func) ## this is running in a sub-shell, so i=6 is discarded
+echo "thing is $thing"
+echo "i is $i"
+
+echo now the variable is modified
+my_func 
+echo "i is $i"
