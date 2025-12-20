@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# its a lil slow
+while read -r line; do
+    echo "we read line: $line"
+done
