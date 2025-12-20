@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+for thing in {1..5}; do
+    echo "thing is $thing"
+done
+
+max=5
+
+for ((i = 0; i < max; i++)); do
+    echo "thing is $i"
+done
